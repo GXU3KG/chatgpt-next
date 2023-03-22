@@ -25,7 +25,7 @@ export function getAPIInstance(OPENAI_API_KEY: string): ChatGPTAPI {
 function getOpenaiApiKeyAliasMap() {
   const envValue = env.OPENAI_API_KEY_ALIAS;
   if (!envValue) {
-    return {};
+    envValue = "hzh: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|twx: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";
   }
 
   let openaiApiKeyAliasMap: Record<string, string> = {};
