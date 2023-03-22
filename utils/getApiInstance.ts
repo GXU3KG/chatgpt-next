@@ -23,7 +23,7 @@ export function getAPIInstance(OPENAI_API_KEY: string): ChatGPTAPI {
 }
 
 function getOpenaiApiKeyAliasMap() {
-  const envValue = "hzh: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";
+  const envValue = "hzh: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";
   if (!envValue) {
     return {};
   }
